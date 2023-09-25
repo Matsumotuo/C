@@ -9,7 +9,7 @@ Caso contrário deveser mostrado na tela a mensagem "ACESSO PERMITIDO" junto com
 int main(){
 
     int senha, tentativas;
-    tentativas = 0;
+    tentativas = 0;// Inicializa contador de tentativas com 0
 
     do
     {
@@ -21,7 +21,7 @@ int main(){
             printf("\n ACESSO NEGADO \n");
         }
         
-        tentativas++;
+        tentativas++;Incrementa o contador de tentativas
 
     } while (senha != 2009);
 
