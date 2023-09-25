@@ -13,6 +13,10 @@ int main(){
     printf("Escreva o número que deseja fatorar: ");
     scanf("%d", &num);
 
+    if(num < 0){
+        printf("Erro, você colocou um número errado!");
+    }
+
     for(i = 1; i <= num; i++){
         printf("%d! = %d \n", num, fatorial *= i);
     }
